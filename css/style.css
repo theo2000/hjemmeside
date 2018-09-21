@@ -22,9 +22,9 @@ body {
 /* Header */
 
 header {
-  background: #35424a;
+  background: #03396c;
   min-height: 70px;
-  border-bottom: 5px solid #e8491d;
+  border-bottom: 5px solid #011f4b;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header h1 {
 }
 
 header .logo {
-  color: #fff;
+  color: #f4f4f4;
   float: left;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -48,7 +48,7 @@ header nav {
 }
 
 header a {
-  color: #fff;
+  color: #f4f4f4;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -71,7 +71,7 @@ header a:hover {
   background: url('../kode2.png') no-repeat;
   background-position: center;
   text-align: center;
-  color: #fff;
+  color: #f4f4f4;
 }
 
 .showcase h1 {
@@ -89,7 +89,7 @@ header a:hover {
 /* Boxes */
 
 #boxes {
-  background-color: #35424a;
+  background-color: #f4f4f4;
   min-height: 400px;
 }
 
@@ -108,7 +108,7 @@ header a:hover {
 }
 
 #boxes h2 {
-  color: white;
+  color: #03396c;
   text-align: center;
   padding: 0;
   margin-top: 45px;
@@ -117,7 +117,7 @@ header a:hover {
 
 .links {
   text-decoration: none;
-  color: #fff;
+  color: #03396c;
 }
 
 .links:hover {
@@ -128,12 +128,12 @@ header a:hover {
 
 footer {
   padding: 12px;
-  color: #fff;
-  background-color: #e8491d;
+  color: #e8491d;
+  background-color: #03396c;
   text-align: center;
 }
 
-/* Prosjekt css */
+/* Prosjektnotater og miniprosjekter css */
 
 /* Header har samme css */
 
@@ -150,11 +150,11 @@ footer {
 }
 
 .project a {
-  color: #000;
+  color: #f4f4f4;
 }
 
 .project button {
-    background-color: #e8491d;
+    background-color: #03396c;
     border: none;
     color: white;
     padding: 10px 22px;
@@ -173,7 +173,7 @@ footer {
 }
 
 .project a:hover {
-  color: #fff;
+  color: #e8491d;
 }
 
 /* Prosjektnotater */
@@ -188,11 +188,11 @@ footer {
 
 .back-button a {
   text-decoration: none;
-  color: white;
+  color: #f4f4f4;
 }
 
 .main-text h2 {
-  color: #e8491d;
+  color: #03396c;
   margin-bottom: 0;
   padding-bottom: 0;
 }
