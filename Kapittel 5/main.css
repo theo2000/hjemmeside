@@ -1,0 +1,56 @@
+body {
+  background-color: #e9e581;
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color: #777;
+}
+
+a {
+  text-decoration: none; 
+  padding: 10px; f
+  font-size: 20px;
+}
+
+img {
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px;
+}
+
+.list {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  list-style-type: none;
+  border-style: solid;
+  background-color: #eee;
+  text-align: center;
+  width: 500px;  
+}
+.innhold {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+a:hover{
+  color: #333333;
+
+}
+.fancy {
+  background-color: #0000ff;
+  display: inline-block;
+  width: auto;
+
+}
