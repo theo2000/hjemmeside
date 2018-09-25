@@ -1,0 +1,216 @@
+/* Global */
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100%;
+  width: 100%;
+}
+
+.non-scrollable {
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+
+header {
+  background: #03396c;
+  min-height: 70px;
+  border-bottom: 5px solid #011f4b;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .logo {
+  color: #f4f4f4;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+}
+
+header a {
+  color: #f4f4f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 20px;
+}
+
+header a:hover {
+  color: #e8491d;
+}
+
+/* Korrigering av css på header a til logo øverst til venstre på header */
+
+.no-css {
+  text-transform: none;
+}
+
+.no-css:hover {
+  color: #f4f4f4;
+}
+
+/* Showcase */
+
+.showcase {
+  min-height: 362px;
+  background: url('kode2.png') no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #111;
+}
+
+.showcase p {
+  font-size: 25px;
+  text-shadow: 2px 2px #111;
+}
+
+/* Boxes */
+
+#boxes {
+  background-color: #f4f4f4;
+  min-height: 400px;
+}
+
+#boxes .box {
+  float: left;
+  width: 31%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 8px; /* Sentering boxes */
+}
+
+#boxes .box img {
+  width: 50%;
+  height: 170px;
+}
+
+#boxes h2 {
+  color: #03396c;
+  text-align: center;
+  padding: 0;
+  margin-top: 45px;
+  font-size: 30px;
+}
+
+.links {
+  text-decoration: none;
+  color: #03396c;
+}
+
+.links:hover {
+  color: #e8491d;
+}
+
+/* Footer */
+
+footer {
+  padding: 12px;
+  color: #e8491d;
+  background-color: #03396c;
+  text-align: center;
+}
+
+/* Prosjektnotater og miniprosjekter css */
+
+/* Header har samme css */
+
+/* main */
+
+.project {
+  border-bottom: 3px solid #e8491d;
+  padding: 10px;
+}
+
+.project h1 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.project button a {
+  color: #f4f4f4;
+}
+
+.project button {
+    background-color: #03396c;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    width: 20%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.project p {
+  margin-bottom: 5;
+  font-size: 16px;
+}
+
+.project a:hover {
+  color: #e8491d;
+}
+
+/* Prosjektnotater */
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #e8491d;
+  border: none;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.main-text h2 {
+  color: #03396c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.dato p {
+  text-decoration: underline;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* Media Queries */
