@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dette er for mobilskjermer */
+
+@media only screen and (orientation: portrait) {
+  body {
+    display: grid;
+    grid-template-rows: 30vh 60vh 10vh;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-row-gap: 10px;
+  }
+
+  .header {
+    grid-area: header;
+    background-color: red;
+  }
+
+  .main {
+    grid-area: main;
+    background-color: blue;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: green;
+  }
+}
