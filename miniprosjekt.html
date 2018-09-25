@@ -2,84 +2,95 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
-  <title>Myarchive | Miniprosjekter</title>
+  <title>Myarchive | Hjem</title>
+  <link rel="stylesheet" href="css/master.css">
+  <!-- master.css er en felles css for alle .html-filene -->
+  <link rel="stylesheet" href="css/style-miniprosjekt.css">
 </head>
 
 <body>
+
+  <!-- Header -->
   <header>
-    <div class="container">
-      <div class="logo">
-        <a class="no-css" href="index.html"><h1><span class="highlight">My</span>archive</h1></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Hjem</a></li>
-          <li><a href="prosjekt.html">Prosjektnotater</a></li>
-          <li class="current"><a href="miniprosjekt.html">Miniprosjekter</a></li>
-          <li><a href="ommeg.html">Om meg</a></li>
-        </ul>
-      </nav>
+    <h1><span class="highlight">My</span>archive</h1>
+    <div class="navbar">
+      <ul>
+        <a href="index.html">
+          <li>Hjem</li>
+        </a>
+        <a href="prosjekt.html">
+          <li>Prosjektnotater</li>
+        </a>
+        <a class="active" href="miniprosjekt.html">
+          <li>Miniprosjekter</li>
+        </a>
+        <a href="ommeg.html">
+          <li>Om meg</li>
+        </a>
+      </ul>
     </div>
   </header>
+
+  <!-- Main -->
   <section class="main">
-    <div class="container">
-
-      <div class="project">
-        <h1>GRID eksempel</h1>
-        <p>Første gang med grid. Fargede grids, navbar og footer</p>
-        <button>
-          <a class="links" href="Grid eksempel/index.html">Åpne GRID eksempel</a>
-        </button>
-      </div>
-
-      <div class="project">
-        <h1>GRID tutorial</h1>
-        <p>Fulgte en youtube tutorial for å forstå Grid litt bedre. Ble litt kjedelige farger, men veldig kul layout. Ser veldig proff ut må jeg si.</p>
-        <button>
-          <a class="links" href="Grid tutorial/index.html">Åpne GRID tutorial</a>
-        </button>
-      </div>
-
-      <div class="project">
-        <h1>Tabell</h1>
-        <p>...veldig enkel tabell...</p>
-        <button>
-          <a class="links" href="tabell/index.html">Åpne tabell</a>
-        </button>
-      </div>
-
-      <div class="project">
-        <h1>Sau, ulv, elg</h1>
-        <p>Veldig kult ;)</p>
-        <button>
-          <a class="links" href="Linke nettsider sammen/index.html">Åpne Sau.no</a>
-        </button>
-      </div>
-
-      <div class="project">
-        <h1>Coding guide</h1>
-        <p>Brukte en youtube tutorial og prøvde å skjønne koding. Øvelse gjør mester. Hjalp veldig å lære fra noen som allerede kan det... Her har jeg lagd mine egne lenker til flexboxfroggy, gridgarden og w3schools også. Veldig nyttig!</p>
-        <button>
-          <a class="links" href="website/index.html">Åpne Coding guide</a>
-        </button>
-      </div>
-
-      <div class="project">
-        <h1>TRAVEL utkast</h1>
-        <p>Dette er den første siden jeg laget for TRAVEL-prosjektet. Jeg syntes ikke form og farger passet, så denne ble bare et utkast. Men den er veldig kul, sjekk den ut!</p>
-        <button>
-          <a class="links" href="nettside/index.html">Åpne TRAVEL utkast</a>
-        </button>
-      </div>
-
+    <div class="project">
+      <h2>Øving på grid</h2>
+      <a href="grid eksempel/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Øving på Media Queries</h2>
+      <a href="media-queries/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Youtube tutorial for grid</h2>
+      <a href="grid tutorial/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Travel prosjekt utkast</h2>
+      <a href="nettside/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Enda en Youtube tutorial</h2>
+      <a href="website/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Sau, ulv, elg</h2>
+      <a href="Linke nettsider sammen/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Min første side?</h2>
+      <a href="Kapittel 5/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    <div class="project">
+      <h2>Min første Youtube tutorial</h2>
+      <a href="kode-guide/guide.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
+    </div>
+    </div>
+    <div class="project">
+      <h2>Verdens enkleste tabell</h2>
+      <a href="tabell/index.html" target="_blank">
+        <div class="btn">Åpne siden</div>
+      </a>
     </div>
   </section>
 
-  <footer>
-    <p>Myarchive, Copyright &copy; 2018</p>
-  </footer>
 </body>
 
 </html>

@@ -1,0 +1,33 @@
+header {
+  border-bottom: 1px #eaeaea solid;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.project h2 {
+  color: orange;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.btn {
+  background-color: #333;
+  border: 1px solid #eaeaea;
+  color: #eaeaea;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: #eaeaea;
+  color: orange;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}

@@ -1,0 +1,78 @@
+/* Prosjektnotater */
+
+body {
+  overflow: hidden;
+}
+
+header {
+  border-bottom: 1px #eaeaea solid;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.project h2 {
+  color: orange;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.project p {
+  color: #eaeaea;
+  font-size: 15px;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.btn, .back-btn {
+  background-color: #333;
+  border: 1px solid #eaeaea;
+  color: #eaeaea;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+  width: 100px;
+}
+
+.btn:hover, .back-btn:hover {
+  background-color: #eaeaea;
+  color: orange;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+/* Notatsider */
+
+.scroll {
+  overflow: scroll;
+}
+
+.note-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 20px 0 20px;
+}
+.note {
+  max-width: 500px;
+  padding: 0 10px 0 10px;;
+}
+
+.note p {
+  color: #eaeaea;
+  text-align: left;
+}
+
+.note h2 {
+  text-align: center;
+  color: #eaeaea;
+}
+
+.note h3 {
+  text-align: center;
+  color: orange;
+}
