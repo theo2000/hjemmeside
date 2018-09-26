@@ -51,10 +51,6 @@ header {
 
 /* Notatsider */
 
-.scroll {
-  overflow: scroll;
-}
-
 .note-container {
   display: flex;
   justify-content: space-around;
