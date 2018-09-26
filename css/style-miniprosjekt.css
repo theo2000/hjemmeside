@@ -2,16 +2,32 @@ header {
   border-bottom: 1px #eaeaea solid;
 }
 
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 20px 0 20px;
+}
+
 .project {
-  padding-bottom: 10px;
+  padding: 0 10px 0 10px;
+  max-width: 500px;
 }
 
 .project h2 {
   color: orange;
-  font-size: 25px;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
   font-style: italic;
+}
+
+.project p {
+  color: #eaeaea;
+  padding: 0 10px 10px 10px;
+  text-align: left;
 }
 
 .btn {
