@@ -1,3 +1,7 @@
+/* Main */
+
+/* Tekst */
+
 .about-container {
   display: flex;
   justify-content: space-around;
@@ -34,20 +38,7 @@ p {
   padding: 0 10px 20px 10px;
 }
 
-footer {
-  margin-top: 20px;
-  background: #eaeaea;
-  height: 80px;
-}
-
-footer p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #333;
-  height: 80px;
-  padding: 0;
-}
+/* Bildegalleri */
 
 .images {
   display: flex;
@@ -62,4 +53,21 @@ footer p {
   max-width: 100%;
   height: auto;
   padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 20px;
+  background: #eaeaea;
+  height: 80px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  height: 80px;
+  padding: 0;
 }
